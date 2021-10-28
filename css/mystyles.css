@@ -1,0 +1,147 @@
+
+body{
+background-color:hsl(257, 40%, 49%);
+background-image: url(https://huddle-landing-page-exercise.vercel.app/images/bg-desktop.svg);
+color:white;
+display: grid;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-repeat: round;
+
+}
+
+.container {
+display: grid;
+width:100%
+
+}
+h2 {
+  font-family: 'Big Shoulders Display', cursive;
+  font-family: 'Lexend Deca', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+p{
+  font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-weight: 400;
+font-size: 0.9rem;
+}
+.logo{
+  padding-bottom: 50px;
+      padding-top: 50px;
+}
+
+.logoimg{
+width:157px;
+height:37px;
+
+}
+
+.col1 {
+margin-left: 100px;
+
+margin-bottom:200px;
+}
+
+.col2{
+
+width: 50%;
+grid-column: 2/2;
+    align-content: center;
+    margin: auto;
+    margin-left: 100px;
+}
+
+
+.button{
+  background-color: white;
+  border: none;
+  color: hsl(257, 40%, 49%);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-top:30px;
+  cursor: pointer;
+  border-radius: 40px;
+  width: 100px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.attribution{
+ font-size: 11px; text-align: center;
+
+}
+.attribution a {color:white; }
+.font{
+  margin-top: 180px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+    margin-left: 300px;
+    cursor: pointer;
+}
+
+
+
+@media (max-width:500px) {
+
+
+  .container {
+
+    display: flex;
+      width: 100%;
+      flex-direction: column;
+  }
+  body{
+  background-color:hsl(257, 40%, 49%);
+  background-image: url(https://huddle-landing-page-exercise.vercel.app/images/bg-desktop.svg);
+  color:white;
+  display: grid;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      min-height: 100vh;
+      margin: 0;
+      background-repeat: no-repeat;
+
+  }
+img { width: 250px;
+height: auto;}
+
+.font{
+  margin-top: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+margin-left: 0;
+    cursor: pointer;
+}
+.col1 {
+margin-left: 100px;
+margin-bottom:10px;
+
+}
+.col2{
+
+width: 60%;
+grid-column: 2/2;
+    align-content: center;
+    margin: auto;
+    margin-left: 100px;
+}
+.button{
+  margin-left:60px;
+}
+
+
+
+
+}
