@@ -1,65 +1,54 @@
-
-body{
-background-color:hsl(257, 40%, 49%);
-background-image: url(https://huddle-landing-page-exercise.vercel.app/images/bg-desktop.svg);
-color:white;
-display: grid;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    min-height: 100vh;
-    margin: 0;
-    background-repeat: round;
-
+body {
+  background-color: hsl(257, 40%, 49%);
+  background-repeat: no-repeat;
+  background-image: url(https://huddle-landing-page-exercise.vercel.app/images/bg-desktop.svg);
+  color: white;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
 }
 
 .container {
-display: grid;
-width:100%
-
+  display: grid;
+  width: 100%;
 }
 h2 {
-  font-family: 'Big Shoulders Display', cursive;
-  font-family: 'Lexend Deca', sans-serif;
-  font-family: 'Poppins', sans-serif;
   font-weight: 600;
 }
-p{
-  font-family: 'Big Shoulders Display', cursive;
-font-family: 'Lexend Deca', sans-serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-weight: 400;
-font-size: 0.9rem;
+p {
+  font-weight: 400;
+  font-size: 0.9rem;
 }
-.logo{
+.logo {
   padding-bottom: 50px;
-      padding-top: 50px;
+  padding-top: 50px;
 }
 
-.logoimg{
-width:157px;
-height:37px;
-
+.logoimg {
+  width: 157px;
+  height: 37px;
 }
 
 .col1 {
-
-margin-left: 100px;
-margin-bottom:200px;
+  margin-left: 100px;
+  margin-bottom: 200px;
 }
 
-.col2{
-
-width: 50%;
-grid-column: 2/2;
-    align-content: center;
-    margin: auto;
-    margin-left: 100px;
+.col2 {
+  width: 50%;
+  grid-column: 2/2;
+  align-content: center;
+  margin: auto;
+  margin-left: 100px;
 }
 
-
-.button{
+.button {
   background-color: white;
   border: none;
   color: hsl(257, 40%, 49%);
@@ -68,83 +57,72 @@ grid-column: 2/2;
   text-decoration: none;
   display: inline-block;
   font-size: 14px;
-  margin-top:30px;
+  margin-top: 30px;
   cursor: pointer;
   border-radius: 40px;
   width: 100px;
-  font-family: 'Poppins', sans-serif;
 }
 
-.attribution{
- font-size: 11px; text-align: center;
-
+.attribution {
+  font-size: 11px;
+  text-align: center;
 }
-.attribution a {color:white; }
-.font{
+.attribution a {
+  color: white;
+}
+.font {
   margin-top: 180px;
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
-    margin-left: 300px;
-    cursor: pointer;
+  margin-left: 300px;
+  cursor: pointer;
 }
 
-
-
-@media (max-width:500px) {
-
-
+@media (max-width: 500px) {
   .container {
-
     display: flex;
-      width: 100%;
-      flex-direction: column;
+    width: 100%;
+    flex-direction: column;
   }
-  body{
-  background-color:hsl(257, 40%, 49%);
-  background-image: url(https://huddle-landing-page-exercise.vercel.app/images/bg-desktop.svg);
-  color:white;
-  display: grid;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      min-height: 100vh;
-      margin: 0;
-      background-repeat: no-repeat;
-
+  body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(https://huddle-landing-page-exercise.vercel.app/images/bg-desktop.svg);
+    color: white;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-repeat: no-repeat;
   }
-img { width: 250px;
-height: auto;}
+  img {
+    width: 250px;
+    height: auto;
+  }
 
-.font{
-  margin-top: 20px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-margin-left: 0;
+  .font {
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 0;
     cursor: pointer;
-}
-.col1 {
-
-margin-bottom:10px;
-
-}
-.col2{
-
-width: 60%;
-grid-column: 2/2;
+  }
+  .col1 {
+    margin-bottom: 10px;
+  }
+  .col2 {
+    width: 60%;
+    grid-column: 2/2;
     align-content: center;
     margin: auto;
-    
-}
-.button{
-      margin-left: auto;
+  }
+  .button {
+    margin-left: auto;
     display: flex;
     margin-right: auto;
     justify-content: center;
-}
-
-
-
-
+  }
 }
