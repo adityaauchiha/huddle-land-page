@@ -18,11 +18,11 @@ display: grid;
 width:100%
 
 }
-h2 {
+h1 {
   font-family: 'Big Shoulders Display', cursive;
   font-family: 'Lexend Deca', sans-serif;
   font-family: 'Poppins', sans-serif;
-  font-weight: 600;
+  font-weight: 400;
 }
 p{
   font-family: 'Big Shoulders Display', cursive;
