@@ -2,6 +2,8 @@
 body{
 background-color:hsl(257, 40%, 49%);
 background-image: url(https://huddle-landing-page-exercise.vercel.app/images/bg-desktop.svg);
+background-repeat: no-repeat;
+background-size: cover;
 color:white;
 display: grid;
     align-items: center;
